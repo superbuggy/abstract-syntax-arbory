@@ -2,7 +2,15 @@
 
 ## Ersatz Lexer
 
-https://github.com/superbuggy/abstract-syntax-arbory/blob/2cef94fa8a982492940a9f31ed00f3db3400b3eb/ersatz/index.js#L1-L7
+```js
+// Define recognized operators and corresponding functions
+const operations = {
+  "-": (a, b) => a - b,
+  "+": (a, b) => a + b,
+  "*": (a, b) => a * b,
+  "/": (a, b) => a / b,
+};
+```
 
 ## Ersatz Parser
 
