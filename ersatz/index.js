@@ -13,8 +13,6 @@ const evaluate = (polishNotationExpression) => {
 };
 
 // Parses and calculates a polish notation expression, iteratively w/ recursion
-// Ideally, this would be refactored to use an abstract syntax tree for runtime
-// safety, since recursion is scary and unpredictable.
 
 // @param string expression : a Polish prefix notation expression
 // @returns number
